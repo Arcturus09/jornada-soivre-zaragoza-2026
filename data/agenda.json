@@ -1,0 +1,180 @@
+[
+  {
+    "dia": "Martes, 26 de mayo",
+    "dia_id": "martes",
+    "items": [
+      {
+        "hora": "11:00",
+        "tipo": "logistica",
+        "titulo": "Llegada, recepción y bienvenida",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "11:30",
+        "tipo": "acto",
+        "titulo": "Bienvenida institucional",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": true,
+        "nota": "Pendiente de confirmar"
+      },
+      {
+        "hora": "12:15",
+        "tipo": "ponencia",
+        "titulo": "Visión estratégica del Servicio de Inspección SOIVRE. La coordinación en materia de vigilancia de mercado. Plan REVIME y retos futuros.",
+        "ponente": "Julián Conthe Yoldi",
+        "cargo": "Director General de Política Comercial y Seguridad Económica",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "13:00",
+        "tipo": "acto",
+        "titulo": "Cóctel y networking",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "14:30",
+        "tipo": "ponencia",
+        "titulo": "El Plan Estratégico del Servicio de Inspección SOIVRE 2026–2027. Implementación y ámbitos de mejora.",
+        "ponente": "Marta Alzás de la Fuente",
+        "cargo": "Subdirectora General de Inspección, Certificación y Asistencia Técnica al Comercio Exterior",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "16:30",
+        "tipo": "ponencia",
+        "titulo": "La capacidad operativa de la red. Refuerzo del liderazgo en los laboratorios de control. Definición de objetivos orientados a incrementar la productividad (Enfoca-T).",
+        "ponente": "Bruno Fernández Scrimieri · Inmaculada Zayas Ludeña",
+        "cargo": "Subdirector General OFECOMES y Red Territorial · Subdirectora General Adjunta",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "18:00",
+        "tipo": "actividad",
+        "titulo": "Visita guiada al centro histórico de Zaragoza",
+        "ponente": "Guía oficial de Zaragoza Turismo",
+        "cargo": "Ayuntamiento de Zaragoza",
+        "organismo": "",
+        "pendiente": false,
+        "nota": "Ver sección Actividades paralelas"
+      }
+    ]
+  },
+  {
+    "dia": "Miércoles, 27 de mayo",
+    "dia_id": "miercoles",
+    "items": [
+      {
+        "hora": "",
+        "tipo": "ponencia",
+        "titulo": "El área de inspección: calidad comercial, productos ecológicos, productos industriales y RoHS. Datos, evolución y desafíos.",
+        "ponente": "Belén Alonso Romero",
+        "cargo": "Subdirectora Adjunta de Coordinación de Inspección, SGICATCE",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": true,
+        "nota": "Hora de inicio pendiente de confirmar"
+      },
+      {
+        "hora": "11:00",
+        "tipo": "acto",
+        "titulo": "Pausa café",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "",
+        "tipo": "ponencia",
+        "titulo": "Continuación: el área de inspección",
+        "ponente": "Belén Alonso Romero",
+        "cargo": "Subdirectora Adjunta de Coordinación de Inspección, SGICATCE",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "14:00",
+        "tipo": "acto",
+        "titulo": "Pausa comida",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "15:00",
+        "tipo": "ponencia",
+        "titulo": "El área de asistencia técnica: evolución, nuevos desarrollos y necesidades.",
+        "ponente": "Ana Mª Álvarez García",
+        "cargo": "Subdirectora General Adjunta, SGICATCE",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "16:00",
+        "tipo": "ponencia",
+        "titulo": "Estado actual de implementación de la encomienda de gestión CITES. Situación y próximos pasos.",
+        "ponente": "Nazaret Hidalgo Cuadrado",
+        "cargo": "Jefa de Servicio, SGICATCE",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "17:00",
+        "tipo": "actividad",
+        "titulo": "Visita de trabajo a Zaragoza Logistics Center y PLAZA",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": "Ver sección Actividades paralelas para el programa completo"
+      }
+    ]
+  },
+  {
+    "dia": "Jueves, 28 de mayo",
+    "dia_id": "jueves",
+    "items": [
+      {
+        "hora": "9:00",
+        "tipo": "ponencia",
+        "titulo": "Jornada de laboratorio",
+        "ponente": "Equipo Centro Analítico de Inspección y Control de Calidad de Comercio Exterior",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "14:00",
+        "tipo": "acto",
+        "titulo": "Fin de la jornada",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      }
+    ]
+  }
+]

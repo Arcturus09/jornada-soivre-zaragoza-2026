@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividades · Jornada SOIVRE Zaragoza 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Estilos específicos de esta página */
+    .actividad-grande {
+      background: var(--blanco);
+      border: 1px solid var(--borde);
+      border-radius: var(--radio-lg);
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+
+    .actividad-grande-cabecera {
+      padding: 2rem 2.5rem 1.5rem;
+      border-bottom: 1px solid var(--crema-oscura);
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    .actividad-grande-icono {
+      font-size: 2.8rem;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .actividad-grande-meta .label { margin-bottom: 0.35rem; display: block; }
+
+    .actividad-grande-titulo {
+      font-family: var(--fuente-titulo);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--texto);
+      line-height: 1.2;
+    }
+
+    .actividad-grande-cuando {
+      font-family: var(--fuente-ui);
+      font-size: 0.85rem;
+      color: var(--texto-suave);
+      margin-top: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .actividad-grande-cuerpo {
+      padding: 1.75rem 2.5rem 2rem;
+    }
+
+    .actividad-grande-cuerpo p {
+      color: var(--texto-suave);
+      line-height: 1.75;
+      margin-bottom: 1.25rem;
+      font-size: 0.95rem;
+    }
+
+    .actividad-grande-cuerpo p:last-child { margin-bottom: 0; }
+
+    /* Aviso pendiente grande */
+    .aviso-pendiente {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      background: rgba(184,149,42,0.08);
+      border: 1px solid rgba(184,149,42,0.25);
+      border-radius: var(--radio);
+      padding: 1.25rem 1.5rem;
+      margin-top: 1.25rem;
+    }
+
+    .aviso-pendiente-icono { font-size: 1.25rem; flex-shrink: 0; }
+
+    .aviso-pendiente p {
+      font-size: 0.85rem !important;
+      color: var(--texto-suave) !important;
+      margin: 0 !important;
+    }
+
+    /* Programa detallado desplegable */
+    .programa-detallado summary {
+      font-family: var(--fuente-ui);
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--granate);
+      cursor: pointer;
+      padding: 0.5rem 0;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .programa-detallado summary::after {
+      content: '▾';
+      font-size: 1rem;
+      transition: transform 0.2s;
+    }
+
+    .programa-detallado[open] summary::after { transform: rotate(180deg); }
+
+    /* Logos de ponentes externos */
+    .ponentes-externos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--crema-oscura);
+    }
+
+    .ponente-externo {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+
+    .ponente-externo-nombre {
+      font-family: var(--fuente-ui);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--texto);
+    }
+
+    .ponente-externo-cargo {
+      font-family: var(--fuente-ui);
+      font-size: 0.72rem;
+      color: var(--texto-muy-suave);
+      line-height: 1.35;
+      max-width: 220px;
+    }
+
+    @media (max-width: 600px) {
+      .actividad-grande-cabecera { flex-direction: column; gap: 0.75rem; padding: 1.5rem; }
+      .actividad-grande-cuerpo { padding: 1.25rem 1.5rem 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-marca">
+        <svg class="header-escudo" viewBox="0 0 38 50" xmlns="http://www.w3.org/2000/svg" aria-label="Escudo de España">
+          <rect x="0" y="0" width="38" height="50" rx="2" fill="#c60b1e"/>
+          <rect x="0" y="15" width="38" height="20" fill="#ffc400"/>
+          <rect x="0" y="0" width="38" height="15" fill="#c60b1e"/>
+          <rect x="0" y="35" width="38" height="15" fill="#c60b1e"/>
+          <text x="19" y="30" text-anchor="middle" font-size="11"
+                fill="#c60b1e" font-weight="bold" font-family="serif">E</text>
+        </svg>
+        <div class="header-texto">
+          <span class="header-evento">Jornada SOIVRE · Zaragoza 2026</span>
+          <span class="header-subtexto">Ministerio de Economía, Comercio y Empresa</span>
+        </div>
+      </a>
+      <nav class="nav-principal" aria-label="Navegación principal">
+        <a href="inauguracion.html" class="nav-link">Inauguración</a>
+        <a href="jornadas.html"     class="nav-link">Jornadas</a>
+        <a href="actividades.html"  class="nav-link">Actividades</a>
+        <a href="galeria.html"      class="nav-link">Galería</a>
+      </nav>
+      <button class="nav-hamburguer" id="hamburguesa" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="nav-mobile" id="nav-mobile">
+    <a href="inauguracion.html" class="nav-link">🏛️ Inauguración</a>
+    <a href="jornadas.html"     class="nav-link">📋 Jornadas</a>
+    <a href="actividades.html"  class="nav-link">🗺️ Actividades</a>
+    <a href="galeria.html"      class="nav-link">📷 Galería</a>
+  </nav>
+
+  <!-- ══ PAGE HERO ═══════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <nav class="breadcrumb" aria-label="Ruta">
+        <a href="index.html">Inicio</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>Actividades paralelas</span>
+      </nav>
+      <span class="label">Actividades paralelas</span>
+      <h1>Programa complementario</h1>
+      <p class="page-hero-desc">
+        Visita al centro histórico de Zaragoza, cena de grupo y jornada técnica 
+        en el ecosistema logístico de Aragón.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══ ACTIVIDADES ═════════════════════════════════════════ -->
+  <section class="seccion">
+    <div class="contenedor">
+
+      <!-- ─── 1. VISITA GUIADA ─────────────────────────────── -->
+      <div class="actividad-grande" id="visita-guiada">
+        <div class="actividad-grande-cabecera">
+          <div class="actividad-grande-icono">🗺️</div>
+          <div class="actividad-grande-meta">
+            <span class="label">Martes 26 de mayo · 18:00 – 20:00 h</span>
+            <div class="actividad-grande-titulo">Visita guiada al centro histórico de Zaragoza</div>
+            <div class="actividad-grande-cuando">
+              <span>📍 Punto de encuentro por confirmar</span>
+              <span style="color:var(--borde-dorado)">·</span>
+              <span>🕕 2 horas aproximadamente</span>
+            </div>
+          </div>
+        </div>
+        <div class="actividad-grande-cuerpo">
+          <p>
+            Recorrido por el centro histórico de Zaragoza con guía oficial del Ayuntamiento 
+            de Zaragoza, a través de Zaragoza Turismo. La ciudad ofrece un patrimonio 
+            excepcional que combina la herencia romana (Caesaraugusta), árabe, mudéjar 
+            y barroca en un espacio urbano de gran accesibilidad.
+          </p>
+          <p>
+            El itinerario discurrirá por los puntos más significativos del casco histórico: 
+            la Basílica del Pilar, la Catedral de La Seo, el Palacio de la Aljafería y la Plaza 
+            del Pilar, escenario central de la vida ciudadana zaragozana.
+          </p>
+          <div class="aviso-pendiente">
+            <span class="aviso-pendiente-icono">◐</span>
+            <p>
+              <strong>Programa en elaboración.</strong> Zaragoza Turismo (Ayuntamiento de Zaragoza) 
+              está preparando la propuesta definitiva del recorrido. Se actualizará en cuanto 
+              esté disponible.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── 2. CENA DE GRUPO ──────────────────────────────── -->
+      <div class="actividad-grande" id="cena">
+        <div class="actividad-grande-cabecera">
+          <div class="actividad-grande-icono">🍽️</div>
+          <div class="actividad-grande-meta">
+            <span class="label">Martes 26 de mayo · Noche</span>
+            <div class="actividad-grande-titulo">Cena de grupo</div>
+            <div class="actividad-grande-cuando">
+              <span>📍 Zaragoza centro · Restaurante por confirmar</span>
+            </div>
+          </div>
+        </div>
+        <div class="actividad-grande-cuerpo">
+          <p>
+            Cena informal del grupo al término de la jornada del martes, que permitirá 
+            a los participantes estrechar vínculos personales y profesionales en un ambiente 
+            distendido.
+          </p>
+          <p>
+            La gastronomía aragonesa ofrece una propuesta rica y variada: el ternasco de 
+            Aragón IGP, el melocotón de Calanda DOP, los vinos de las cuatro 
+            denominaciones de origen (Cariñena, Campo de Borja, Calatayud y Somontano) 
+            y una tradición de asadores y cocina de producto que hacen de la mesa 
+            un argumento más para visitar Zaragoza.
+          </p>
+          <div class="aviso-pendiente">
+            <span class="aviso-pendiente-icono">◐</span>
+            <p>
+              <strong>Restaurante pendiente de confirmar.</strong> La reserva se está 
+              gestionando. Se comunicará el lugar y la hora definitivos con antelación suficiente.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ─── 3. ZLC Y PLAZA ───────────────────────────────── -->
+      <div class="actividad-grande" id="zlc-plaza">
+        <div class="actividad-grande-cabecera">
+          <div class="actividad-grande-icono">🏭</div>
+          <div class="actividad-grande-meta">
+            <span class="label">Miércoles 27 de mayo · 17:00 – 20:00 h</span>
+            <div class="actividad-grande-titulo">Visita al ecosistema logístico de Aragón: ZLC y PLAZA</div>
+            <div class="actividad-grande-cuando">
+              <span>🚌 Autobús desde Museo Pablo Serrano (Ps. María Agustín, 20)</span>
+            </div>
+          </div>
+        </div>
+        <div class="actividad-grande-cuerpo">
+          <p>
+            Aragón alberga uno de los nodos logísticos más importantes de Europa, 
+            gracias a su posición estratégica en el eje atlántico-mediterráneo y su 
+            infraestructura de transporte multimodal. Esta visita permite a los 
+            participantes conocer de primera mano el ecosistema logístico regional 
+            y su conexión con el comercio exterior.
+          </p>
+
+          <details class="programa-detallado" open>
+            <summary>Programa detallado de la visita</summary>
+
+            <table class="programa-tabla">
+              <thead>
+                <tr>
+                  <th>Hora</th>
+                  <th>Actividad</th>
+                  <th>Responsable</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="prog-hora">17:00</td>
+                  <td>
+                    <div class="prog-actividad">Concentración y salida en autobús</div>
+                    <div class="prog-responsable">Ps. María Agustín, nº 20 (Museo Pablo Serrano)</div>
+                  </td>
+                  <td class="prog-responsable">—</td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">17:00–17:25</td>
+                  <td>
+                    <div class="prog-actividad">Desplazamiento a Zaragoza Logistics Center</div>
+                    <div class="prog-responsable">Av. de Ranillas, 5, Edif. 5A (EXPO), planta baja</div>
+                  </td>
+                  <td class="prog-responsable">—</td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">17:30–17:45</td>
+                  <td>
+                    <div class="prog-actividad">Apertura, bienvenida y presentación de actividades del ZLC</div>
+                  </td>
+                  <td class="prog-responsable">
+                    <strong>Isabel Nuez</strong> · Directora Gerente, ZLC<br>
+                    <strong>Rafael de Miguel</strong> · Director Académico, ZLC
+                  </td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">17:45–17:55</td>
+                  <td>
+                    <div class="prog-actividad">Presentación de la Plataforma Logística de Zaragoza (PLAZA)</div>
+                  </td>
+                  <td class="prog-responsable">
+                    <strong>Isabel Velasco</strong> · Directora Comercial, Aragón Plataforma Logística
+                  </td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">17:55–18:05</td>
+                  <td>
+                    <div class="prog-actividad">Terminal Marítima de Zaragoza (TMZ): actividad y situación actual</div>
+                  </td>
+                  <td class="prog-responsable">
+                    <strong>Ramón Adé</strong> · Director Gerente, TMZ
+                  </td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">18:05–18:15</td>
+                  <td>
+                    <div class="prog-actividad">Visión del sector en materia aduanera y principales necesidades</div>
+                  </td>
+                  <td class="prog-responsable">
+                    <strong>Mariano Aso</strong> · Presidente ATEIA Aragón<br>
+                    Gerente de Aso Tránsitos y Despachos, S.L.
+                  </td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">18:15–18:30</td>
+                  <td><div class="prog-actividad">Debate y despedida</div></td>
+                  <td class="prog-responsable">—</td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">18:30–18:50</td>
+                  <td>
+                    <div class="prog-actividad">Desplazamiento a la Plataforma Logística de Zaragoza</div>
+                  </td>
+                  <td class="prog-responsable">—</td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">18:50–19:45</td>
+                  <td>
+                    <div class="prog-actividad">Visita a la Plataforma Logística de Zaragoza (PLAZA)</div>
+                    <div class="prog-responsable">La mayor plataforma logística de Europa</div>
+                  </td>
+                  <td class="prog-responsable">
+                    <strong>Isabel Velasco</strong> · Directora Comercial, APL
+                  </td>
+                </tr>
+                <tr>
+                  <td class="prog-hora">19:45–20:00</td>
+                  <td>
+                    <div class="prog-actividad">Desplazamiento al centro de Zaragoza</div>
+                    <div class="prog-responsable">Destino: Av. César Augusto, 16</div>
+                  </td>
+                  <td class="prog-responsable">—</td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+
+          <div class="ponentes-externos">
+            <div class="ponente-externo">
+              <span class="ponente-externo-nombre">Zaragoza Logistics Center (ZLC)</span>
+              <span class="ponente-externo-cargo">
+                Centro universitario de investigación en logística y gestión de cadena de suministro, 
+                integrado en la red MIT Global Scale Network
+              </span>
+            </div>
+            <div class="ponente-externo">
+              <span class="ponente-externo-nombre">Aragón Plataforma Logística (APL / PLAZA)</span>
+              <span class="ponente-externo-cargo">
+                La mayor plataforma logística de Europa en extensión, 
+                con más de 12 millones de m² cerca de Zaragoza
+              </span>
+            </div>
+            <div class="ponente-externo">
+              <span class="ponente-externo-nombre">Terminal Marítima de Zaragoza (TMZ)</span>
+              <span class="ponente-externo-cargo">
+                Puerto seco interior que conecta Zaragoza con los principales 
+                puertos mediterráneos mediante tren y camión
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ GALERÍA ═════════════════════════════════════════════ -->
+  <section class="seccion seccion-alt">
+    <div class="contenedor">
+      <div class="seccion-header">
+        <span class="label">Documentación gráfica</span>
+        <h2>Fotos de las actividades</h2>
+      </div>
+
+      <div class="galeria-filtros" id="act-filtros">
+        <button class="filtro-btn activo" data-sec="todas">Todas</button>
+        <button class="filtro-btn" data-sec="visita-guiada">Visita guiada</button>
+        <button class="filtro-btn" data-sec="cena">Cena</button>
+        <button class="filtro-btn" data-sec="zlc-plaza">ZLC y PLAZA</button>
+      </div>
+
+      <div id="galeria-act-grid" class="galeria-grid">
+        <div class="galeria-vacia">
+          <div class="galeria-vacia-icono">📷</div>
+          <p class="galeria-vacia-txt">Las fotos se publicarán tras el evento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imagen">
+    <button class="lightbox-cerrar" aria-label="Cerrar">✕</button>
+    <img class="lightbox-img" src="" alt="">
+    <div class="lightbox-pie"></div>
+  </div>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-org">
+        <strong>Ministerio de Economía, Comercio y Empresa</strong>
+        Dirección Territorial de Comercio e ICEX de Aragón · Zaragoza
+      </div>
+      <div class="footer-fecha">Mayo 2026</div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    // Galería filtrada por secciones de actividades
+    let _todasFotosAct = [];
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      // Lightbox
+      const lb = document.getElementById('lightbox');
+      lb.querySelector('.lightbox-cerrar').addEventListener('click', () => {
+        lb.classList.remove('abierto'); document.body.style.overflow = '';
+      });
+      lb.addEventListener('click', e => {
+        if (e.target === lb) { lb.classList.remove('abierto'); document.body.style.overflow = ''; }
+      });
+
+      const grid = document.getElementById('galeria-act-grid');
+      const filtros = document.getElementById('act-filtros');
+
+      try {
+        const todas = await fetch('data/galeria.json').then(r => r.json());
+        _todasFotosAct = todas.filter(f =>
+          ['visita-guiada','cena','zlc-plaza'].includes(f.seccion)
+        );
+      } catch(e) { /* mantiene vacío */ }
+
+      filtros.addEventListener('click', e => {
+        const btn = e.target.closest('.filtro-btn');
+        if (!btn) return;
+        filtros.querySelectorAll('.filtro-btn').forEach(b => b.classList.remove('activo'));
+        btn.classList.add('activo');
+        renderAct(btn.dataset.sec);
+      });
+
+      renderAct('todas');
+    });
+
+    function renderAct(sec) {
+      const grid = document.getElementById('galeria-act-grid');
+      const items = sec === 'todas'
+        ? _todasFotosAct
+        : _todasFotosAct.filter(f => f.seccion === sec);
+
+      if (!items.length) {
+        grid.innerHTML = `<div class="galeria-vacia">
+          <div class="galeria-vacia-icono">📷</div>
+          <p class="galeria-vacia-txt">Las fotos se publicarán tras el evento.</p>
+        </div>`;
+        return;
+      }
+
+      grid.innerHTML = items.map(f => `
+        <div class="galeria-item" data-src="${f.archivo}" data-pie="${f.pie||''}">
+          <img src="${f.archivo}" alt="${f.pie||''}" loading="lazy">
+          <div class="galeria-overlay"><div class="galeria-pie">${f.pie||''}</div></div>
+        </div>`).join('');
+
+      grid.querySelectorAll('.galeria-item').forEach(el => {
+        el.addEventListener('click', () => {
+          const lb = document.getElementById('lightbox');
+          lb.querySelector('.lightbox-img').src = el.dataset.src;
+          lb.querySelector('.lightbox-pie').textContent = el.dataset.pie;
+          lb.classList.add('abierto');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+    }
+  </script>
+</body>
+</html>

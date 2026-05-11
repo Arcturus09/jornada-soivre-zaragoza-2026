@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería · Jornada SOIVRE Zaragoza 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-marca">
+        <svg class="header-escudo" viewBox="0 0 38 50" xmlns="http://www.w3.org/2000/svg" aria-label="Escudo de España">
+          <rect x="0" y="0" width="38" height="50" rx="2" fill="#c60b1e"/>
+          <rect x="0" y="15" width="38" height="20" fill="#ffc400"/>
+          <rect x="0" y="0" width="38" height="15" fill="#c60b1e"/>
+          <rect x="0" y="35" width="38" height="15" fill="#c60b1e"/>
+          <text x="19" y="30" text-anchor="middle" font-size="11"
+                fill="#c60b1e" font-weight="bold" font-family="serif">E</text>
+        </svg>
+        <div class="header-texto">
+          <span class="header-evento">Jornada SOIVRE · Zaragoza 2026</span>
+          <span class="header-subtexto">Ministerio de Economía, Comercio y Empresa</span>
+        </div>
+      </a>
+      <nav class="nav-principal" aria-label="Navegación principal">
+        <a href="inauguracion.html" class="nav-link">Inauguración</a>
+        <a href="jornadas.html"     class="nav-link">Jornadas</a>
+        <a href="actividades.html"  class="nav-link">Actividades</a>
+        <a href="galeria.html"      class="nav-link">Galería</a>
+      </nav>
+      <button class="nav-hamburguer" id="hamburguesa" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="nav-mobile" id="nav-mobile">
+    <a href="inauguracion.html" class="nav-link">🏛️ Inauguración</a>
+    <a href="jornadas.html"     class="nav-link">📋 Jornadas</a>
+    <a href="actividades.html"  class="nav-link">🗺️ Actividades</a>
+    <a href="galeria.html"      class="nav-link">📷 Galería</a>
+  </nav>
+
+  <!-- ══ PAGE HERO ═══════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <nav class="breadcrumb" aria-label="Ruta">
+        <a href="index.html">Inicio</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>Galería</span>
+      </nav>
+      <span class="label">Documentación gráfica</span>
+      <h1>Galería fotográfica</h1>
+      <p class="page-hero-desc">
+        Imágenes de los actos, jornadas de trabajo, visitas y momentos compartidos 
+        durante los tres días del encuentro.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══ GALERÍA PRINCIPAL ═══════════════════════════════════ -->
+  <section class="seccion">
+    <div class="contenedor">
+
+      <!-- Filtros -->
+      <div class="galeria-filtros" id="galeria-filtros">
+        <!-- Generado por JS -->
+      </div>
+
+      <!-- Contador -->
+      <div style="font-family:var(--fuente-ui); font-size:0.78rem; color:var(--texto-muy-suave);
+                  margin-bottom:1.5rem;" id="galeria-contador"></div>
+
+      <!-- Grid de fotos -->
+      <div class="galeria-grid" id="galeria-grid">
+        <!-- Cargado desde data/galeria.json -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ CÓMO AÑADIR FOTOS (visible solo si galería vacía) ══ -->
+  <section class="seccion seccion-alt" id="seccion-info-galeria" style="display:none;">
+    <div class="contenedor">
+      <div style="max-width:680px; margin:0 auto; text-align:center;">
+        <h3 style="font-family:var(--fuente-titulo); color:var(--marino); margin-bottom:1rem;">
+          La galería se irá completando
+        </h3>
+        <p style="color:var(--texto-suave); font-size:0.95rem; line-height:1.75;">
+          Las fotografías del evento se publicarán durante y después de la jornada. 
+          Cada sección (inauguración, ponencias, visita guiada, cena y visita a ZLC y PLAZA) 
+          tendrá su propio apartado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imagen">
+    <button class="lightbox-cerrar" aria-label="Cerrar">✕</button>
+    <img class="lightbox-img" src="" alt="">
+    <div class="lightbox-pie"></div>
+  </div>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-org">
+        <strong>Ministerio de Economía, Comercio y Empresa</strong>
+        Dirección Territorial de Comercio e ICEX de Aragón · Zaragoza
+      </div>
+      <div class="footer-fecha">Mayo 2026</div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    // Al terminar de renderizar la galería, mostrar info si está vacía
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new MutationObserver(() => {
+        const vacia = document.querySelector('.galeria-vacia');
+        const infoSec = document.getElementById('seccion-info-galeria');
+        const contador = document.getElementById('galeria-contador');
+        if (infoSec) infoSec.style.display = vacia ? 'block' : 'none';
+        if (contador && !vacia) {
+          const items = document.querySelectorAll('.galeria-item').length;
+          contador.textContent = `${items} foto${items !== 1 ? 's' : ''}`;
+        } else if (contador) {
+          contador.textContent = '';
+        }
+      });
+      const grid = document.getElementById('galeria-grid');
+      if (grid) observer.observe(grid, { childList: true, subtree: true });
+    });
+  </script>
+</body>
+</html>

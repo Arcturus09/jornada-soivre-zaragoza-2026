@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inauguración · Jornada SOIVRE Zaragoza 2026</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ══ HEADER ══════════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-marca">
+        <svg class="header-escudo" viewBox="0 0 38 50" xmlns="http://www.w3.org/2000/svg" aria-label="Escudo de España">
+          <rect x="0" y="0" width="38" height="50" rx="2" fill="#c60b1e"/>
+          <rect x="0" y="15" width="38" height="20" fill="#ffc400"/>
+          <rect x="0" y="0" width="38" height="15" fill="#c60b1e"/>
+          <rect x="0" y="35" width="38" height="15" fill="#c60b1e"/>
+          <text x="19" y="30" text-anchor="middle" font-size="11"
+                fill="#c60b1e" font-weight="bold" font-family="serif">E</text>
+        </svg>
+        <div class="header-texto">
+          <span class="header-evento">Jornada SOIVRE · Zaragoza 2026</span>
+          <span class="header-subtexto">Ministerio de Economía, Comercio y Empresa</span>
+        </div>
+      </a>
+      <nav class="nav-principal" aria-label="Navegación principal">
+        <a href="inauguracion.html" class="nav-link">Inauguración</a>
+        <a href="jornadas.html"     class="nav-link">Jornadas</a>
+        <a href="actividades.html"  class="nav-link">Actividades</a>
+        <a href="galeria.html"      class="nav-link">Galería</a>
+      </nav>
+      <button class="nav-hamburguer" id="hamburguesa" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <nav class="nav-mobile" id="nav-mobile">
+    <a href="inauguracion.html" class="nav-link">🏛️ Inauguración</a>
+    <a href="jornadas.html"     class="nav-link">📋 Jornadas</a>
+    <a href="actividades.html"  class="nav-link">🗺️ Actividades</a>
+    <a href="galeria.html"      class="nav-link">📷 Galería</a>
+  </nav>
+
+  <!-- ══ PAGE HERO ═══════════════════════════════════════════ -->
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <nav class="breadcrumb" aria-label="Ruta">
+        <a href="index.html">Inicio</a>
+        <span class="breadcrumb-sep">›</span>
+        <span>Inauguración</span>
+      </nav>
+      <span class="label">Martes, 26 de mayo de 2026</span>
+      <h1>Acto de inauguración</h1>
+      <p class="page-hero-desc">
+        Bienvenida institucional y presentación de la visión estratégica del Servicio 
+        de Inspección SOIVRE por el Director General de Política Comercial.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══ PROGRAMA ════════════════════════════════════════════ -->
+  <section class="seccion">
+    <div class="contenedor">
+      <div class="seccion-header">
+        <span class="label">Programa del acto</span>
+        <h2>Cronograma de la mañana</h2>
+        <p class="bajada">Delegación Especial de Economía y Hacienda · C/ José Luis Albareda, 18 · Zaragoza</p>
+      </div>
+
+      <div style="max-width:780px; margin:0 auto;">
+        <div class="agenda-items">
+
+          <div class="agenda-item">
+            <div class="agenda-hora">11:00</div>
+            <div class="agenda-contenido">
+              <div class="agenda-tipo">Logística</div>
+              <div class="agenda-titulo">Llegada, recepción y bienvenida</div>
+              <div class="agenda-ponente">Registro de asistentes e instalación</div>
+            </div>
+          </div>
+
+          <div class="agenda-item">
+            <div class="agenda-hora">11:30</div>
+            <div class="agenda-contenido">
+              <div class="agenda-tipo">Acto</div>
+              <div class="agenda-titulo">Bienvenida institucional</div>
+              <span class="badge-pendiente">Por confirmar</span>
+            </div>
+          </div>
+
+          <div class="agenda-item">
+            <div class="agenda-hora">12:15</div>
+            <div class="agenda-contenido">
+              <div class="agenda-tipo">Ponencia inaugural</div>
+              <div class="agenda-titulo">
+                Visión estratégica del Servicio de Inspección SOIVRE. 
+                La coordinación en materia de vigilancia de mercado. 
+                Plan REVIME y retos futuros.
+              </div>
+              <div class="agenda-ponente">
+                <strong>Julián Conthe Yoldi</strong> · Director General de Política Comercial y Seguridad Económica
+              </div>
+            </div>
+          </div>
+
+          <div class="agenda-item tipo-acto">
+            <div class="agenda-hora">13:00</div>
+            <div class="agenda-contenido">
+              <div class="agenda-tipo">Acto social</div>
+              <div class="agenda-titulo">Cóctel y networking</div>
+              <div class="agenda-ponente">
+                Espacio de encuentro entre los participantes al término del acto inaugural
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /.agenda-items -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ REPRESENTANTES ══════════════════════════════════════ -->
+  <section class="seccion seccion-alt" id="representantes">
+    <div class="contenedor">
+      <div class="seccion-header">
+        <span class="label">Participantes del acto inaugural</span>
+        <h2>Representantes institucionales</h2>
+        <p class="bajada">
+          Ponentes y autoridades presentes en el acto de apertura de la jornada.
+        </p>
+      </div>
+
+      <div id="representantes-grid" class="personas-grid">
+        <!-- Cargado desde data/representantes.json -->
+      </div>
+
+      <div class="ornamento" style="margin-top:3rem;">
+        <div class="ornamento-linea"></div>
+        <span class="ornamento-simbolo">◆</span>
+        <div class="ornamento-linea"></div>
+      </div>
+
+      <p style="text-align:center; font-family:var(--fuente-titulo); font-style:italic; 
+                color:var(--texto-muy-suave); font-size:0.9rem; margin-top:1.5rem;">
+        Los datos de los representantes se actualizarán conforme se confirme la asistencia 
+        de las autoridades invitadas.
+      </p>
+    </div>
+  </section>
+
+  <!-- ══ GALERÍA DE FOTOS ════════════════════════════════════ -->
+  <section class="seccion">
+    <div class="contenedor">
+      <div class="seccion-header">
+        <span class="label">Documentación gráfica</span>
+        <h2>Fotos de la inauguración</h2>
+      </div>
+      <div class="galeria-grid" id="galeria-inauguracion">
+        <div class="galeria-vacia">
+          <div class="galeria-vacia-icono">📷</div>
+          <p class="galeria-vacia-txt">Las fotos se publicarán tras el evento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visor de imagen">
+    <button class="lightbox-cerrar" aria-label="Cerrar">✕</button>
+    <img class="lightbox-img" src="" alt="">
+    <div class="lightbox-pie"></div>
+  </div>
+
+  <!-- ══ FOOTER ══════════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-org">
+        <strong>Ministerio de Economía, Comercio y Empresa</strong>
+        Dirección Territorial de Comercio e ICEX de Aragón · Zaragoza
+      </div>
+      <div class="footer-fecha">Mayo 2026</div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    // Galería filtrada solo por sección inauguración — versión ligera
+    document.addEventListener('DOMContentLoaded', async () => {
+      const grid = document.getElementById('galeria-inauguracion');
+      try {
+        const fotos = await fetch('data/galeria.json').then(r => r.json());
+        const filtradas = fotos.filter(f => f.seccion === 'inauguracion');
+        if (filtradas.length) {
+          grid.innerHTML = filtradas.map((f, i) => `
+            <div class="galeria-item" data-src="${f.archivo}" data-pie="${f.pie || ''}">
+              <img src="${f.archivo}" alt="${f.pie || ''}" loading="lazy">
+              <div class="galeria-overlay"><div class="galeria-pie">${f.pie || ''}</div></div>
+            </div>`).join('');
+          grid.querySelectorAll('.galeria-item').forEach(el => {
+            el.addEventListener('click', () => {
+              const lb = document.getElementById('lightbox');
+              lb.querySelector('.lightbox-img').src = el.dataset.src;
+              lb.querySelector('.lightbox-pie').textContent = el.dataset.pie;
+              lb.classList.add('abierto');
+              document.body.style.overflow = 'hidden';
+            });
+          });
+        }
+      } catch(e) { /* mantiene estado vacío */ }
+    });
+  </script>
+</body>
+</html>
