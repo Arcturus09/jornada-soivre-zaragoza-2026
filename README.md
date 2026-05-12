@@ -2,7 +2,7 @@
 
 Web oficial de la 1.ª Jornada Anual para la Mejora de la Competitividad del Servicio de Inspección SOIVRE (Zaragoza, 26–28 de mayo de 2026).
 
-**URL pública:** `https://<tu-usuario>.github.io/jornada-soivre-zaragoza-2026/`
+**URL pública:** `https://arcturus09.github.io/jornada-soivre-zaragoza-2026/`
 
 ---
 
