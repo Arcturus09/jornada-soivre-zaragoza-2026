@@ -319,8 +319,6 @@ p:last-child { margin-bottom: 0; }
   max-width: 680px;
 }
 
-.hero-contenido { max-width: 680px; }
-
 .hero-etiqueta {
   display: inline-flex;
   align-items: center;
