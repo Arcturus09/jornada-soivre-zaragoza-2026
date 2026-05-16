@@ -168,8 +168,9 @@ p:last-child { margin-bottom: 0; }
 }
 
 .header-escudo {
-  width: 38px;
-  height: auto;
+  height: 36px;
+  width: auto;
+  max-width: 220px;
 }
 
 .header-texto {
