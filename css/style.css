@@ -1131,7 +1131,7 @@ p:last-child { margin-bottom: 0; }
   .nav-hamburguer { display: flex; }
 
   .hero-inner {
-    grid-template-columns: 1fr;
+    flex-direction: column;
   }
   .hero-decoracion { display: none; }
 
