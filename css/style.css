@@ -308,10 +308,15 @@ p:last-child { margin-bottom: 0; }
   max-width: var(--max-ancho);
   margin: 0 auto;
   padding: 0 2rem;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 3rem;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.hero-contenido {
+  flex: 1;
+  max-width: 680px;
 }
 
 .hero-contenido { max-width: 680px; }
