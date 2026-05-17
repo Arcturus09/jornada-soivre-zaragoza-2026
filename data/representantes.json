@@ -3,19 +3,19 @@
     "nombre": "Julián Conthe Yoldi",
     "cargo": "Director General de Política Comercial y Seguridad Económica",
     "organismo": "Ministerio de Economía, Comercio y Empresa",
-    "foto": ""
+    "foto": "img/asistentes/foto-julian-conthe.jpg"
   },
   {
     "nombre": "Fernando Beltrán Blázquez",
     "cargo": "Delegado del Gobierno de España en Aragón",
     "organismo": "Delegación del Gobierno de España en Aragón",
-    "foto": ""
+    "foto": "img/asistentes/foto-fernando-beltran.jpg"
   },
   {
     "nombre": "Noelia Herrero Arenas",
     "cargo": "Subdelegada del Gobierno en Zaragoza",
     "organismo": "Subdelegación del Gobierno en Zaragoza",
-    "foto": ""
+    "foto": "img/asistentes/foto-noelia-herrero.jpg"
   },
   {
     "nombre": "Marta Alzás de la Fuente",
@@ -27,7 +27,7 @@
     "nombre": "Bruno Fernández Scrimieri",
     "cargo": "Subdirector General de OFECOMES y Red Territorial",
     "organismo": "Ministerio de Economía, Comercio y Empresa",
-    "foto": ""
+    "foto": "img/asistentes/foto-bruno-fernandez.jpg"
   },
   {
     "nombre": "Pilar Ortún Hinojosa",
@@ -63,18 +63,18 @@
     "nombre": "Carmen Herrarte Cajal",
     "cargo": "Directora General de Pymes, Autónomos, Comercio Interior y Consumo",
     "organismo": "Gobierno de Aragón",
-    "foto": ""
+    "foto": "img/asistentes/foto-carmen-herrarte.jpg"
   },
   {
     "nombre": "Javier Camo Monterde",
     "cargo": "Director Gerente de Aragón Exterior (AREX)",
     "organismo": "Gobierno de Aragón",
-    "foto": ""
+    "foto": "img/asistentes/foto-javier-camo.jpg"
   },
   {
     "nombre": "Nieves Ágreda Giménez de Cisneros",
     "cargo": "Directora General Adjunta",
     "organismo": "Cámara de Comercio, Industria y Servicios de Zaragoza",
-    "foto": ""
+    "foto": "img/asistentes/foto-nieves-agreda.jpg"
   }
 ]
