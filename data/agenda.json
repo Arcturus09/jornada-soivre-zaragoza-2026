@@ -64,6 +64,16 @@
         "nota": ""
       },
       {
+  "hora": "17:45",
+  "tipo": "acto",
+  "titulo": "Foto de grupo",
+  "ponente": "",
+  "cargo": "",
+  "organismo": "",
+  "pendiente": false,
+  "nota": "En la entrada de la Delegación Especial de Economía y Hacienda · C/ José Luis Albareda, 18"
+},
+      {
         "hora": "18:00",
         "tipo": "actividad",
         "titulo": "Visita guiada al centro histórico de Zaragoza",
