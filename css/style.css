@@ -293,10 +293,6 @@ p:last-child { margin-bottom: 0; }
   max-width: var(--max-ancho);
   margin: 0 auto;
   padding: 0 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 3rem;
 }
 
 .hero-contenido {
