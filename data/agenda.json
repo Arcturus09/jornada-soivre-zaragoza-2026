@@ -80,15 +80,15 @@
     "dia_id": "miercoles",
     "items": [
       {
-        "hora": "",
-        "tipo": "ponencia",
-        "titulo": "El área de inspección: calidad comercial, productos ecológicos, productos industriales y RoHS. Datos, evolución y desafíos.",
-        "ponente": "Belén Alonso Romero",
-        "cargo": "Subdirectora Adjunta de Coordinación de Inspección, SGICATCE",
-        "organismo": "Ministerio de Economía, Comercio y Empresa",
-        "pendiente": true,
-        "nota": "Hora de inicio pendiente de confirmar"
-      },
+  "hora": "8:30",
+  "tipo": "ponencia",
+  "titulo": "El área de inspección: calidad comercial, productos ecológicos, productos industriales y RoHS. Datos, evolución y desafíos.",
+  "ponente": "Belén Alonso Romero",
+  "cargo": "Subdirectora Adjunta. Coordinadora Nacional de Inspección SOIVRE, SGICATCE",
+  "organismo": "Ministerio de Economía, Comercio y Empresa",
+  "pendiente": false,
+  "nota": ""
+},
       {
         "hora": "11:00",
         "tipo": "acto",
