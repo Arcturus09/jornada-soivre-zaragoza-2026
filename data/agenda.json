@@ -156,25 +156,45 @@
     "dia_id": "jueves",
     "items": [
       {
-        "hora": "9:00",
-        "tipo": "ponencia",
-        "titulo": "Jornada de laboratorio",
-        "ponente": "Equipo Centro Analítico de Inspección y Control de Calidad de Comercio Exterior",
-        "cargo": "",
-        "organismo": "",
-        "pendiente": false,
-        "nota": ""
-      },
-      {
-        "hora": "14:00",
-        "tipo": "acto",
-        "titulo": "Fin de la jornada",
-        "ponente": "",
-        "cargo": "",
-        "organismo": "",
-        "pendiente": false,
-        "nota": ""
-      }
+  "hora": "9:00",
+  "tipo": "ponencia",
+  "titulo": "Jornada de laboratorio",
+  "ponente": "Equipo Centro Analítico de Inspección y Control de Calidad de Comercio Exterior",
+  "cargo": "",
+  "organismo": "",
+  "pendiente": false,
+  "nota": ""
+},
+{
+  "hora": "11:00",
+  "tipo": "acto",
+  "titulo": "Pausa café",
+  "ponente": "",
+  "cargo": "",
+  "organismo": "",
+  "pendiente": false,
+  "nota": ""
+},
+{
+  "hora": "11:30",
+  "tipo": "ponencia",
+  "titulo": "Jornada de laboratorio (continuación)",
+  "ponente": "Equipo Centro Analítico de Inspección y Control de Calidad de Comercio Exterior",
+  "cargo": "",
+  "organismo": "",
+  "pendiente": false,
+  "nota": ""
+},
+{
+  "hora": "14:00",
+  "tipo": "acto",
+  "titulo": "Fin de la jornada",
+  "ponente": "",
+  "cargo": "",
+  "organismo": "",
+  "pendiente": false,
+  "nota": ""
+}
     ]
   }
 ]
