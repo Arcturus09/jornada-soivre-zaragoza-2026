@@ -6,39 +6,75 @@
     "foto": ""
   },
   {
-    "nombre": "Marta Alzás de la Fuente",
-    "cargo": "Subdirectora General de Inspección, Certificación y Asistencia Técnica al Comercio Exterior",
-    "organismo": "Ministerio de Economía, Comercio y Empresa",
+    "nombre": "Fernando Beltrán Blázquez",
+    "cargo": "Delegado del Gobierno de España en Aragón",
+    "organismo": "Delegación del Gobierno de España en Aragón",
     "foto": ""
+  },
+  {
+    "nombre": "Noelia Herrero Arenas",
+    "cargo": "Subdelegada del Gobierno en Zaragoza",
+    "organismo": "Subdelegación del Gobierno en Zaragoza",
+    "foto": ""
+  },
+  {
+    "nombre": "Marta Alzás de la Fuente",
+    "cargo": "Subdirectora General de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
+    "organismo": "Ministerio de Economía, Comercio y Empresa",
+    "foto": "img/asistentes/foto-marta-alzas.jpg"
   },
   {
     "nombre": "Bruno Fernández Scrimieri",
-    "cargo": "Subdirector General, OFECOMES y Red Territorial",
+    "cargo": "Subdirector General de OFECOMES y Red Territorial",
     "organismo": "Ministerio de Economía, Comercio y Empresa",
     "foto": ""
   },
   {
-    "nombre": "Inmaculada Zayas Ludeña",
-    "cargo": "Subdirectora General Adjunta, OFECOMES y Red Territorial",
+    "nombre": "Pilar Ortún Hinojosa",
+    "cargo": "Directora Territorial de Comercio e ICEX de Aragón",
     "organismo": "Ministerio de Economía, Comercio y Empresa",
+    "foto": "img/asistentes/foto-pilar-ortun.jpg"
+  },
+  {
+    "nombre": "Carlos Pastor Eixarch",
+    "cargo": "Delegado Especial de Economía y Hacienda en Aragón",
+    "organismo": "Ministerio de Hacienda",
     "foto": ""
   },
   {
-    "nombre": "Belén Alonso Romero",
-    "cargo": "Subdirectora Adjunta de Coordinación de Inspección, SGICATCE",
-    "organismo": "Ministerio de Economía, Comercio y Empresa",
+    "nombre": "Alicia Chiva Sorni",
+    "cargo": "Directora del Área de Sanidad Exterior",
+    "organismo": "Delegación del Gobierno de España en Aragón",
     "foto": ""
   },
   {
-    "nombre": "Ana Mª Álvarez García",
-    "cargo": "Subdirectora General Adjunta, SGICATCE",
-    "organismo": "Ministerio de Economía, Comercio y Empresa",
+    "nombre": "Juan F. Ruiz Presencio",
+    "cargo": "Jefe de la Dependencia Regional de Aduanas e Impuestos Especiales de Aragón",
+    "organismo": "Agencia Estatal de Administración Tributaria",
     "foto": ""
   },
   {
-    "nombre": "Nazaret Hidalgo Cuadrado",
-    "cargo": "Jefa de Servicio, SGICATCE",
-    "organismo": "Ministerio de Economía, Comercio y Empresa",
+    "nombre": "Luis Castillo del Prado",
+    "cargo": "Jefe de Gestión de Aduanas e Impuestos Especiales de Zaragoza",
+    "organismo": "Agencia Estatal de Administración Tributaria",
+    "foto": ""
+  },
+  {
+    "nombre": "Carmen Herrarte Cajal",
+    "cargo": "Directora General de Pymes, Autónomos, Comercio Interior y Consumo",
+    "organismo": "Gobierno de Aragón",
+    "foto": ""
+  },
+  {
+    "nombre": "Javier Camo Monterde",
+    "cargo": "Director Gerente de Aragón Exterior (AREX)",
+    "organismo": "Gobierno de Aragón",
+    "foto": ""
+  },
+  {
+    "nombre": "Nieves Ágreda Giménez de Cisneros",
+    "cargo": "Directora General Adjunta",
+    "organismo": "Cámara de Comercio, Industria y Servicios de Zaragoza",
     "foto": ""
   }
 ]
