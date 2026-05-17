@@ -21,7 +21,7 @@
     "nombre": "Marta Alzás de la Fuente",
     "cargo": "Subdirectora General de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-marta-alzas.jpg"
   },
   {
     "nombre": "Mónica Aróstegui Velázquez",
@@ -261,7 +261,7 @@
     "nombre": "Pilar Ortún Hinojosa",
     "cargo": "Directora Territorial de Aragón",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-pilar-ortun.jpg"
   },
   {
     "nombre": "Clara Pedrazo Catalán",
@@ -351,6 +351,6 @@
     "nombre": "Inmaculada Zayas Ludeña",
     "cargo": "Subdirectora General Adjunta de la SG de OFECOMES y Red Territorial",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-inmaculada-zayas.jpg"
   }
 ]
