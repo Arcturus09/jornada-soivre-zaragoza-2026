@@ -1,356 +1,80 @@
 [
   {
-    "nombre": "María Belén Alonso Romero",
-    "cargo": "Coordinadora Nacional de Normalización, Certificación y Evaluación Comercial de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
+    "nombre": "Julián Conthe Yoldi",
+    "cargo": "Director General de Política Comercial y Seguridad Económica",
+    "organismo": "Ministerio de Economía, Comercio y Empresa",
+    "foto": "img/asistentes/foto-julian-conthe.jpg"
   },
   {
-    "nombre": "Luis Álvarez Cobo",
-    "cargo": "Titulado medio en actividades técnicas y profesionales en la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
+    "nombre": "Fernando Beltrán Blázquez",
+    "cargo": "Delegado del Gobierno de España en Aragón",
+    "organismo": "Delegación del Gobierno de España en Aragón",
+    "foto": "img/asistentes/foto-fernando-beltran.jpg"
   },
   {
-    "nombre": "Ana María Álvarez García",
-    "cargo": "Subdirectora Adjunta de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
+    "nombre": "Noelia Herrero Arenas",
+    "cargo": "Subdelegada del Gobierno en Zaragoza",
+    "organismo": "Subdelegación del Gobierno en Zaragoza",
+    "foto": "img/asistentes/foto-noelia-herrero.jpg"
   },
   {
     "nombre": "Marta Alzás de la Fuente",
     "cargo": "Subdirectora General de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
+    "organismo": "Ministerio de Economía, Comercio y Empresa",
     "foto": "img/asistentes/foto-marta-alzas.jpg"
   },
   {
-    "nombre": "Mónica Aróstegui Velázquez",
-    "cargo": "Directora Provincial de Granada (Andalucía)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Adolfo Barriobero Gamarra",
-    "cargo": "Director Provincial de Huelva (Andalucía)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Paula Bellisco Civantos",
-    "cargo": "Jefa de Servicio en el Laboratorio Central de la Dirección Territorial de Madrid",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Pablo Bermejo Carrero",
-    "cargo": "Coordinador de Área de Inspección de la Dirección Territorial de Canarias-Santa Cruz de Tenerife",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Regina Berna Serna",
-    "cargo": "Jefa de Área de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Manuel Blanco Madrazo",
-    "cargo": "Director Territorial de Cantabria",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Montserrat Burset Carbonell",
-    "cargo": "Jefa de Laboratorio de la Dirección Provincial de Girona (Cataluña)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Daniel Cascales Núñez",
-    "cargo": "Asesor en la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Antonio José Cases Ballesta",
-    "cargo": "Jefe de Sección de Laboratorio de la Dirección Territorial de Navarra",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Inmaculada Ciscar Cardona",
-    "cargo": "Jefa de Área de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Hermenegildo Cobo Martínez",
-    "cargo": "Director Territorial de Andalucía",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Antonio Concellón Laiz",
-    "cargo": "Jefe de Servicio de la Dirección Territorial de Comercio de Castilla y León",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Blanca De Andrés Aleixandre",
-    "cargo": "Jefa de Servicio de la Dirección Provincial de Castellón (Comunidad Valenciana)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Paula De la Cruz Rodríguez",
-    "cargo": "Jefa de Área en Normalización y Calidad Comercial de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Ana De la Peña Navarro",
-    "cargo": "Directora Provincial de Tarragona (Cataluña)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Miguel De Gracia Mena",
-    "cargo": "Jefe de Laboratorio de la Dirección Territorial de Madrid",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Laura Del Barrio Díaz",
-    "cargo": "Jefa de Servicio de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Maria Iciar Echevarria Hoyos",
-    "cargo": "Jefa de Servicio de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Encarnación Garcia Mendoza",
-    "cargo": "Jefa del Servicio de Inspección de la Dirección Provincial de Comercio de Alicante (Comunidad Valenciana)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Enrique Garcia Garcia",
-    "cargo": "Jefe de Servicio de Laboratorio de la Dirección Territorial de Canarias- Las Palmas",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Mónica Gavira Albiach",
-    "cargo": "Jefa de Laboratorio de la Dirección Provincial de Cádiz (Andalucía)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Gaspar Guzmán Benítez",
-    "cargo": "Director Territorial Adjunto de la Dirección Territorial de Canarias- Santa Cruz de Tenerife",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Ofelia Hernández Velázquez",
-    "cargo": "Directora técnica y de calidad del Laboratorio de la Dirección Territorial de Canarias- Santa Cruz de Tenerife",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Nazaret Hidalgo Cuadrado",
-    "cargo": "Asistencia Técnica de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Patricia Iglesias Rodríguez",
-    "cargo": "Directora Provincial Adjunta de Alicante (Comunidad Valenciana)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Ana Jáuregui Vicente",
-    "cargo": "Directora Territorial Adjunta de la  Dirección Territorial de Navarra",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Patricia Jiménez Abiétar",
-    "cargo": "Directora Territorial Adjunta de Cataluña",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Cristina López Vázquez",
-    "cargo": "Jefa del Servicio de Inspección de la Dirección Territorial de Galicia",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Heike Lützow Álvarez",
-    "cargo": "Directora Territorial Adjunta de Andalucía",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Carmen Mambrilla Herrero",
-    "cargo": "Coordinadora de Área de Inspección Algeciras de la Dirección Provincial de Cádiz (Andalucía)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Lucy Daniela Mancero Velasco",
-    "cargo": "Jefa de Servicio de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Cristina Mancha Ruiz-Lopera",
-    "cargo": "Jefa de Servicio de la Dirección Territorial de Extremadura",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "María Ángeles Martín García",
-    "cargo": "Jefa de Servicio de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Gloria Martínez Llidó",
-    "cargo": "Técnica Jefa de Sección en la Dirección Territorial de Galicia",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Aida Mejía Ruiz",
-    "cargo": "Jefa de Servicio de Inspección de la Dirección Territorial Illes Balears",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Daniel Moliner Galbis",
-    "cargo": "Jefe de Sección del Laboratorio de la Dirección Territorial de Valencia",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Carmen Moreno Aranda",
-    "cargo": "Coordinadora Área de Inspección de la Dirección Provincial de Málaga (Andalucía)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "María Motta Martínez",
-    "cargo": "Jefa de Servicio de Inspección de la Dirección Provincial de Gipuzkoa (País Vasco)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Cecilia Navarro Garriga",
-    "cargo": "Directora Territorial Adjunta de la Dirección Territorial de Comercio del País Vasco",
-    "organismo": "",
-    "foto": ""
+    "nombre": "Bruno Fernández Scrimieri",
+    "cargo": "Subdirector General de OFECOMES y Red Territorial",
+    "organismo": "Ministerio de Economía, Comercio y Empresa",
+    "foto": "img/asistentes/foto-bruno-fernandez.jpg"
   },
   {
     "nombre": "Pilar Ortún Hinojosa",
-    "cargo": "Directora Territorial de Aragón",
-    "organismo": "",
+    "cargo": "Directora Territorial de Comercio e ICEX de Aragón",
+    "organismo": "Ministerio de Economía, Comercio y Empresa",
     "foto": "img/asistentes/foto-pilar-ortun.jpg"
   },
   {
-    "nombre": "Clara Pedrazo Catalán",
-    "cargo": "Directora Territorial Adjunta de Aragón",
-    "organismo": "",
+    "nombre": "Carlos Pastor Eixarch",
+    "cargo": "Delegado Especial de Economía y Hacienda en Aragón",
+    "organismo": "Ministerio de Hacienda",
     "foto": ""
   },
   {
-    "nombre": "Rosario Peiró Fort",
-    "cargo": "Jefa de Unidad Técnica de Gandía en la Dirección Territorial de Valencia",
-    "organismo": "",
+    "nombre": "Alicia Chiva Sorni",
+    "cargo": "Directora del Área de Sanidad Exterior",
+    "organismo": "Delegación del Gobierno de España en Aragón",
     "foto": ""
   },
   {
-    "nombre": "Myriam Pérez Nogueira",
-    "cargo": "Directora Provincial de A Coruña (Galicia)",
-    "organismo": "",
+    "nombre": "Juan F. Ruiz Presencio",
+    "cargo": "Jefe de la Dependencia Regional de Aduanas e Impuestos Especiales de Aragón",
+    "organismo": "Agencia Estatal de Administración Tributaria",
     "foto": ""
   },
   {
-    "nombre": "Cristina Pérez Mas",
-    "cargo": "Coordinadora de Área Territorial de la Dirección Territorial de Valencia",
-    "organismo": "",
+    "nombre": "Luis Castillo del Prado",
+    "cargo": "Jefe de Gestión de Aduanas e Impuestos Especiales de Zaragoza",
+    "organismo": "Agencia Estatal de Administración Tributaria",
     "foto": ""
   },
   {
-    "nombre": "Laura Piedra Gutiérrez",
-    "cargo": "Directora Provincial de Burgos (Castilla y León)",
-    "organismo": "",
-    "foto": ""
+    "nombre": "Carmen Herrarte Cajal",
+    "cargo": "Directora General de Pymes, Autónomos, Comercio Interior y Consumo",
+    "organismo": "Gobierno de Aragón",
+    "foto": "img/asistentes/foto-carmen-herrarte.jpg"
   },
   {
-    "nombre": "Elsa Rodríguez Moreno",
-    "cargo": "Directora Territorial Adjunta de la Dirección Territorial de Canarias- Las Palmas",
-    "organismo": "",
-    "foto": ""
+    "nombre": "Javier Camo Monterde",
+    "cargo": "Director Gerente de Aragón Exterior (AREX)",
+    "organismo": "Gobierno de Aragón",
+    "foto": "img/asistentes/foto-javier-camo.jpg"
   },
   {
-    "nombre": "Borja Rodríguez Vázquez",
-    "cargo": "Técnico Jefe de Sección en la Dirección Territorial de Comercio de Andalucía",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "María Sánchez Pérez",
-    "cargo": "Directora Territorial Adjunta de Madrid",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Begoña Sánchez-Girón Carnicero",
-    "cargo": "Jefa de Servicio de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Sergio Swinkels López",
-    "cargo": "Director Territorial Adjunto de Murcia",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Elisa Taborga Curto",
-    "cargo": "Coordinadora de Área en la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Vicente Tasa Roig",
-    "cargo": "Jefe de Servicio de Laboratorio de la DP de Alicante (Comunidad Valenciana)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Guillermo Teba García",
-    "cargo": "Director Provincial de Cádiz (Andalucía)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Elena Zafón Chuliá",
-    "cargo": "Jefa del Servicio de Inspección de la Dirección Provincial de Girona (Cataluña)",
-    "organismo": "",
-    "foto": ""
-  },
-  {
-    "nombre": "Inmaculada Zayas Ludeña",
-    "cargo": "Subdirectora General Adjunta de la SG de OFECOMES y Red Territorial",
-    "organismo": "",
-    "foto": "img/asistentes/foto-inmaculada-zayas.jpg"
+    "nombre": "Nieves Ágreda Giménez de Cisneros",
+    "cargo": "Directora General Adjunta",
+    "organismo": "Cámara de Comercio, Industria y Servicios de Zaragoza",
+    "foto": "img/asistentes/foto-nieves-agreda.jpg"
   }
 ]
