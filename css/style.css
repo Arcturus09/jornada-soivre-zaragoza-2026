@@ -287,8 +287,6 @@ p:last-child { margin-bottom: 0; }
   pointer-events: none;
 }
 
-/* Líneas decorativas heráldicase */
-
 .hero-inner {
   position: relative;
   z-index: 1;
