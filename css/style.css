@@ -288,7 +288,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 /* Líneas decorativas heráldicase */
-.hero::after {
+
   content: '';
   position: absolute;
   top: 0; right: 0;
