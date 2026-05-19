@@ -14,15 +14,15 @@
         "nota": ""
       },
       {
-  "hora": "11:30",
-  "tipo": "acto",
-  "titulo": "Bienvenida institucional",
-  "ponente": "",
-  "cargo": "",
-  "organismo": "",
-  "pendiente": false,
-  "nota": ""
-},
+        "hora": "11:30",
+        "tipo": "acto",
+        "titulo": "Bienvenida institucional",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
       {
         "hora": "12:15",
         "tipo": "ponencia",
@@ -32,6 +32,16 @@
         "organismo": "Ministerio de Economía, Comercio y Empresa",
         "pendiente": false,
         "nota": ""
+      },
+      {
+        "hora": "12:50",
+        "tipo": "acto",
+        "titulo": "Foto oficial",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": "En la entrada de la Delegación Especial de Economía y Hacienda · C/ José Luis Albareda, 18"
       },
       {
         "hora": "13:00",
@@ -44,7 +54,7 @@
         "nota": ""
       },
       {
-        "hora": "14:30",
+        "hora": "15:00",
         "tipo": "ponencia",
         "titulo": "El Plan Estratégico del Servicio de Inspección SOIVRE 2026–2027. Implementación y ámbitos de mejora.",
         "ponente": "Marta Alzás de la Fuente",
@@ -64,16 +74,6 @@
         "nota": ""
       },
       {
-  "hora": "17:45",
-  "tipo": "acto",
-  "titulo": "Foto de grupo",
-  "ponente": "",
-  "cargo": "",
-  "organismo": "",
-  "pendiente": false,
-  "nota": "En la entrada de la Delegación Especial de Economía y Hacienda · C/ José Luis Albareda, 18"
-},
-      {
         "hora": "18:00",
         "tipo": "actividad",
         "titulo": "Visita guiada al centro histórico de Zaragoza",
@@ -90,15 +90,35 @@
     "dia_id": "miercoles",
     "items": [
       {
-  "hora": "8:30",
-  "tipo": "ponencia",
-  "titulo": "El área de inspección: calidad comercial, productos ecológicos, productos industriales y RoHS. Datos, evolución y desafíos.",
-  "ponente": "Belén Alonso Romero",
-  "cargo": "Subdirectora Adjunta. Coordinadora Nacional de Inspección SOIVRE, SGICATCE",
-  "organismo": "Ministerio de Economía, Comercio y Empresa",
-  "pendiente": false,
-  "nota": ""
-},
+        "hora": "8:30",
+        "tipo": "ponencia",
+        "titulo": "El área de inspección: calidad comercial, productos ecológicos, productos industriales y RoHS. Datos, evolución y desafíos.",
+        "ponente": "Belén Alonso Romero",
+        "cargo": "Subdirectora Adjunta. Coordinadora Nacional de Inspección SOIVRE, SGICATCE",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "10:00",
+        "tipo": "ponencia",
+        "titulo": "El área de asistencia técnica: evolución, nuevos desarrollos y necesidades.",
+        "ponente": "Ana Mª Álvarez García",
+        "cargo": "Subdirectora General Adjunta, SGICATCE",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "10:30",
+        "tipo": "ponencia",
+        "titulo": "Estado actual de implementación de la encomienda de gestión CITES. Situación y próximos pasos.",
+        "ponente": "Nazaret Hidalgo Cuadrado",
+        "cargo": "Jefa de Servicio, SGICATCE",
+        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "pendiente": false,
+        "nota": ""
+      },
       {
         "hora": "11:00",
         "tipo": "acto",
@@ -112,9 +132,9 @@
       {
         "hora": "11:30",
         "tipo": "ponencia",
-        "titulo": "Continuación: el área de inspección",
-        "ponente": "Belén Alonso Romero",
-        "cargo": "Subdirectora Adjunta. Coordinadora Nacional de Inspección SOIVRE, SGICATCE",
+        "titulo": "Información de los centros",
+        "ponente": "",
+        "cargo": "",
         "organismo": "",
         "pendiente": false,
         "nota": ""
@@ -130,22 +150,12 @@
         "nota": ""
       },
       {
-        "hora": "15:00",
+        "hora": "15:00–16:30",
         "tipo": "ponencia",
-        "titulo": "El área de asistencia técnica: evolución, nuevos desarrollos y necesidades.",
-        "ponente": "Ana Mª Álvarez García",
-        "cargo": "Subdirectora General Adjunta, SGICATCE",
-        "organismo": "Ministerio de Economía, Comercio y Empresa",
-        "pendiente": false,
-        "nota": ""
-      },
-      {
-        "hora": "16:00",
-        "tipo": "ponencia",
-        "titulo": "Estado actual de implementación de la encomienda de gestión CITES. Situación y próximos pasos.",
-        "ponente": "Nazaret Hidalgo Cuadrado",
-        "cargo": "Jefa de Servicio, SGICATCE",
-        "organismo": "Ministerio de Economía, Comercio y Empresa",
+        "titulo": "Continuación. Grupos de trabajo.",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
         "pendiente": false,
         "nota": ""
       },
@@ -166,45 +176,45 @@
     "dia_id": "jueves",
     "items": [
       {
-  "hora": "9:00",
-  "tipo": "ponencia",
-  "titulo": "Jornada de laboratorio",
-  "ponente": "Equipo Centro Analítico de Inspección y Control de Calidad de Comercio Exterior",
-  "cargo": "",
-  "organismo": "",
-  "pendiente": false,
-  "nota": ""
-},
-{
-  "hora": "11:00",
-  "tipo": "acto",
-  "titulo": "Pausa café",
-  "ponente": "",
-  "cargo": "",
-  "organismo": "",
-  "pendiente": false,
-  "nota": ""
-},
-{
-  "hora": "11:30",
-  "tipo": "ponencia",
-  "titulo": "Jornada de laboratorio (continuación)",
-  "ponente": "Equipo Centro Analítico de Inspección y Control de Calidad de Comercio Exterior",
-  "cargo": "",
-  "organismo": "",
-  "pendiente": false,
-  "nota": ""
-},
-{
-  "hora": "14:00",
-  "tipo": "acto",
-  "titulo": "Fin de la jornada",
-  "ponente": "",
-  "cargo": "",
-  "organismo": "",
-  "pendiente": false,
-  "nota": ""
-}
+        "hora": "9:00",
+        "tipo": "ponencia",
+        "titulo": "Jornada de laboratorio",
+        "ponente": "Equipo Centro Analítico de Inspección y Control de Calidad de Comercio Exterior",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "11:00",
+        "tipo": "acto",
+        "titulo": "Pausa café",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "11:30",
+        "tipo": "ponencia",
+        "titulo": "Jornada de laboratorio (continuación)",
+        "ponente": "Equipo Centro Analítico de Inspección y Control de Calidad de Comercio Exterior",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      },
+      {
+        "hora": "14:00",
+        "tipo": "acto",
+        "titulo": "Fin de la jornada",
+        "ponente": "",
+        "cargo": "",
+        "organismo": "",
+        "pendiente": false,
+        "nota": ""
+      }
     ]
   }
 ]
