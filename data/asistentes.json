@@ -27,25 +27,25 @@
     "nombre": "Mónica Aróstegui Velázquez",
     "cargo": "Directora Provincial de Granada (Andalucía)",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-monica-arostegui.jpg"
   },
   {
     "nombre": "Adolfo Barriobero Gamarra",
     "cargo": "Director Provincial de Huelva (Andalucía)",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-adolfo-barriobero.jpg"
   },
   {
     "nombre": "Paula Bellisco Civantos",
     "cargo": "Jefa de Servicio en el Laboratorio Central de la Dirección Territorial de Madrid",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-paula-bellisco.jpg"
   },
   {
     "nombre": "Pablo Bermejo Carrero",
     "cargo": "Coordinador de Área de Inspección de la Dirección Territorial de Canarias-Santa Cruz de Tenerife",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-pablo-bermejo.jpg"
   },
   {
     "nombre": "Regina Berna Serna",
@@ -57,7 +57,7 @@
     "nombre": "Manuel Blanco Madrazo",
     "cargo": "Director Territorial de Cantabria",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-manuel-blanco.jpg"
   },
   {
     "nombre": "Montserrat Burset Carbonell",
@@ -75,7 +75,7 @@
     "nombre": "Antonio José Cases Ballesta",
     "cargo": "Jefe de Sección de Laboratorio de la Dirección Territorial de Navarra",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-antonio-cases.jpg"
   },
   {
     "nombre": "Inmaculada Ciscar Cardona",
@@ -93,7 +93,7 @@
     "nombre": "Antonio Concellón Laiz",
     "cargo": "Jefe de Servicio de la Dirección Territorial de Comercio de Castilla y León",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-antonio-concellon.jpg"
   },
   {
     "nombre": "Blanca De Andrés Aleixandre",
@@ -105,7 +105,7 @@
     "nombre": "Paula De la Cruz Rodríguez",
     "cargo": "Jefa de Área en Normalización y Calidad Comercial de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-paula-delacruz.jpg"
   },
   {
     "nombre": "Ana De la Peña Navarro",
@@ -123,7 +123,7 @@
     "nombre": "Laura Del Barrio Díaz",
     "cargo": "Jefa de Servicio de la SG de Inspección, Certificación y Asistencia Técnica del Comercio Exterior",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-laura-delbarrio.jpg"
   },
   {
     "nombre": "María Icíar Echevarría Hoyos",
@@ -139,7 +139,7 @@
   },
   {
     "nombre": "Enrique García García",
-    "cargo": "Jefe de Servicio de Laboratorio de la Dirección Territorial de Canarias- Las Palmas",
+    "cargo": "Jefe de Servicio de Laboratorio de la Dirección Territorial de Canarias-Las Palmas",
     "organismo": "",
     "foto": ""
   },
@@ -151,13 +151,13 @@
   },
   {
     "nombre": "Gaspar Guzmán Benítez",
-    "cargo": "Director Territorial Adjunto de la Dirección Territorial de Canarias- Santa Cruz de Tenerife",
+    "cargo": "Director Territorial Adjunto de la Dirección Territorial de Canarias-Santa Cruz de Tenerife",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-gaspar-guzman.jpg"
   },
   {
     "nombre": "Ofelia Hernández Velázquez",
-    "cargo": "Directora técnica y de calidad del Laboratorio de la Dirección Territorial de Canarias- Santa Cruz de Tenerife",
+    "cargo": "Directora técnica y de calidad del Laboratorio de la Dirección Territorial de Canarias-Santa Cruz de Tenerife",
     "organismo": "",
     "foto": ""
   },
@@ -175,7 +175,7 @@
   },
   {
     "nombre": "Ana Jáuregui Vicente",
-    "cargo": "Directora Territorial Adjunta de la  Dirección Territorial de Navarra",
+    "cargo": "Directora Territorial Adjunta de la Dirección Territorial de Navarra",
     "organismo": "",
     "foto": ""
   },
@@ -195,7 +195,7 @@
     "nombre": "Heike Lützow Álvarez",
     "cargo": "Directora Territorial Adjunta de Andalucía",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-heike-lutzow.jpg"
   },
   {
     "nombre": "Carmen Mambrilla Herrero",
@@ -237,7 +237,7 @@
     "nombre": "Daniel Moliner Galbis",
     "cargo": "Jefe de Sección del Laboratorio de la Dirección Territorial de Valencia",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-daniel-moliner.jpg"
   },
   {
     "nombre": "Carmen Moreno Aranda",
@@ -249,13 +249,13 @@
     "nombre": "María Motta Martínez",
     "cargo": "Jefa de Servicio de Inspección de la Dirección Provincial de Gipuzkoa (País Vasco)",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-maria-motta.jpg"
   },
   {
     "nombre": "Cecilia Navarro Garriga",
     "cargo": "Directora Territorial Adjunta de la Dirección Territorial de Comercio del País Vasco",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-cecilia-navarro.jpg"
   },
   {
     "nombre": "Pilar Ortún Hinojosa",
@@ -267,7 +267,7 @@
     "nombre": "Clara Pedrazo Catalán",
     "cargo": "Directora Territorial Adjunta de Aragón",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-clara-pedrazo.jpg"
   },
   {
     "nombre": "Rosario Peiró Fort",
@@ -295,9 +295,9 @@
   },
   {
     "nombre": "Elsa Rodríguez Moreno",
-    "cargo": "Directora Territorial Adjunta de la Dirección Territorial de Canarias- Las Palmas",
+    "cargo": "Directora Territorial Adjunta de la Dirección Territorial de Canarias-Las Palmas",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-elsa-rodriguez.jpg"
   },
   {
     "nombre": "Borja Rodríguez Vázquez",
@@ -333,13 +333,13 @@
     "nombre": "Vicente Tasa Roig",
     "cargo": "Jefe de Servicio de Laboratorio de la DP de Alicante (Comunidad Valenciana)",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-vicente-tasa.jpg"
   },
   {
     "nombre": "Guillermo Teba García",
     "cargo": "Director Provincial de Cádiz (Andalucía)",
     "organismo": "",
-    "foto": ""
+    "foto": "img/asistentes/foto-guillermo-teba.jpg"
   },
   {
     "nombre": "Elena Zafón Chuliá",
